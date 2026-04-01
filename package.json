@@ -1,23 +1,28 @@
 {
-  "name": "leetcode-solutions",
-  "version": "1.0.0",
-  "description": "This repository contains solutions to LeetCode problems for TypeScript.",
-  "homepage": "https://github.com/Dmitrii-Lobanov/leetcode-solutions#readme",
-  "bugs": {
-    "url": "https://github.com/Dmitrii-Lobanov/leetcode-solutions/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dmitrii-Lobanov/leetcode-solutions.git"
-  },
-  "license": "ISC",
-  "author": "Dmitrii-Lobanov",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "vitest"
-  },
-  "devDependencies": {
-    "vitest": "^4.1.2"
-  }
+	"name": "leetcode-solutions",
+	"version": "1.0.0",
+	"description": "This repository contains solutions to LeetCode problems for TypeScript.",
+	"homepage": "https://github.com/Dmitrii-Lobanov/leetcode-solutions#readme",
+	"bugs": {
+		"url": "https://github.com/Dmitrii-Lobanov/leetcode-solutions/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Dmitrii-Lobanov/leetcode-solutions.git"
+	},
+	"license": "ISC",
+	"author": "Dmitrii-Lobanov",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest",
+		"lint": "biome lint .",
+		"format": "biome format .",
+		"check": "biome check .",
+		"fix": "biome check --write ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.10",
+		"vitest": "^4.1.2"
+	}
 }
